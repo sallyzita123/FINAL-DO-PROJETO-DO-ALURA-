@@ -163,7 +163,7 @@ reflexão ética sobre a tecnologia.</p>
     <h2>Entre em contato.</h2>
     <div>
         <a href="https://github.com/Sallyzinha123/Projeto-5--terceiro-trimestre-.git">github</a>
-        <p class="my-5 text-center">copyright 2024, produzido por .</p>
+        <p class="my-5 text-center">copyright 2024, produzido por Sabrina camargo.</p>
 </footer>
 </body>
     </html>
