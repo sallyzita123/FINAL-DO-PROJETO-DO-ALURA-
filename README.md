@@ -138,7 +138,7 @@ reflexão ética sobre a tecnologia.</p>
     <h2>Entre em contato.</h2>
     <div>
         <a href=""http://github.com/femaschetil"">github</a>
-        <p class="my-5 text-center">copyright 2024, produzido por aluna Sthefanny Dos Santos Silva.</p>
+        <p class="my-5 text-center">copyright 2024, produzido por aluna Sabrina Kelly da Cruz Camargo.</p>
 </footer>
 </body>
 </html>
