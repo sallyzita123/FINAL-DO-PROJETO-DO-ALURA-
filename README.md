@@ -5,20 +5,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Meu portifólio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <div>
+        <i class="ni ni-github"></i>
+        <a href="http://github.com/femaschetil">Github</a>
+    </div>
 </head>
 <body>
     <header class="container">
-    <img src="img/avatar-perfil.png" class="rounded-circle" width="150"  alt="avatar de Sabrina" srcset="">
+    <img src="img/avatar-perfil.png" class="rounded-circle" width="150"  alt="avatar de Sah Camargo" srcset="">
 <p class="lead">Eu sou Sabrina Kelly da Cruz Camargo</p>
-    <h1>Eu estou estudando programação básica</h1>
-    <p>Sou aluna do ensino médio.
-        E eu estou recebendo conhecimento constante 
-        nas aulas de programação. 
-        Atualmente, estou aprendendo a fazer web sites
-        através da lìngua de programação Html e Css.</p>
-<p>Minhas capacidades em programar</p>
+<h1>Eu aprendo programação</h1>
+<p> Sou aluna de programação e pensamento compuacional,atualmente uso e aprendo html, CSS e JavaScript nas minhas aulas.
+    Veja os projetos que desenvolvi:</p>
+<p>Minhas habilidades</p>
 <div>
     <p class="badge text-bg-secondary"> HTML</p>
     <p class="badge text-bg-secondary">CSS</p>
@@ -53,7 +55,6 @@
                         (.livros), mostrando um imagem de capa, detalhes do livro e um link de compra. O 
                         desing responsivo é garantido pelo uso de uma tag viewport e um flexivel que 
                         se adapta a diferentes tamanhos de tela.</p>
-            <p>
                         <p>O CSS personalisa o visual do site, usando variáveis para cores, estilizando o 
                             texto com uma fonte importada do Google Fonts e aplicando um esquema de cores 
                             suaves e botões interatovos. O uso de HTML e CSS é importante pois assim é possivel
@@ -105,30 +106,54 @@ reflexão ética sobre a tecnologia.</p>
             as perguntas e aslógicas de jogo, como iniciar o jogo, apresentar perguntas e 
             alternativas, processr as escolhas dos jogadores, e exibir o rsultado final. Este 
             design modular facilita a manutenção e a expansão futura do jogo. A importancia das 
-            ferramentas utilizadas (HTML, CSS JavaScript) reside na criação de uma experiência 
+            ferramentas utilizadas (HTML, CSS JavaScript) reside na criação de uma experiência
             interativa que não apenas entretém, mas também educa os jogadores sobre a complexidade 
-            ética e social de IA, incentivando a reflexão crítica sobre o papel de tecnologia em
-            nossas vidas.</p>
+            ética e social da IA, incentivando a reflexão crítica sobre o papel da tecnologia 
+            em nossas vidas.</p>
         <img src="img/projeto-2.png" class="img-fluid w-100" alt="Projeto 2">
         <div class="modal -'footer'">
-            <a href="https://github.com/SthefannyS2/Projeto-5--terceiro-trimestre-.git">Ver projeto</a>
-            <a href="https://github.com/SthefannyS2/Projeto-5--terceiro-trimestre-.git">Ver codigo do projeto</a>
+            <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia">Ver projeto</a>
+            <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver codigo do projeto</a>
         </div>
     <button type="button" class="bnt bnt-link"data-bs-toogle="modal" data-bs-target="modal2">Veja o projeto</button>
     </div>
     </div>
  </div>
  <!--projeto 3-->
- <div class="col-md-4">
-    <div class="card">
-    <img src="img/projeto-1.png" class="card-img-top" alt="imagem do projeto de biblioteca">
-    <div class="card-body">
-    <h5 class="card-title">Minha biblioteca: uma webpage personalizada</h5>
-    <p class="card-text">Este projeto e uma pagina web que apresenta uma lista dos
-         meus livros favoritos,incluindo informações sobre os autores, datas de publicação e links 
-         para comprar na amazon.  a página é estilizada com CSS para  uma visualização agradável e 
-        usa fontes externas no Google Fonts.</p>
-    <button type="button" class="bnt bnt-link"data-bs-toogle="modal" data-bs-target="modal3">Veja o projeto</button>
+ <div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+    <h5 class="card-title">Explorando o universo: Uma aventura interativa em astronomia com Scratch</h5>
+    <button type="button" class="btn-close" data-bs-dimiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <p>O projeto éu[ uma aplicação educativa interativa focada em ensinar
+            conceitos basicos de astronomia. Utiliza uma série de scripts associadas
+            a diferentes atores (sprites) e cenários para criar uma experiência de 
+            aprendizado envolvente. O objetivo é familiarizar os usuários com tópicos
+            como as fases da lua, eclipses, a visibilidade de diferentes constelações
+            dependendo da localização geografica da Terra, e a forma da Terra, através de 
+            interações e visualizações dinamicas.</p>
+        <p>Cada ator no projeto possui scripts que definem seu comportamento
+           em resposta a eventos específicos como o inicio do programa (quando a 
+           bandeira é clicada), cliques do usuário, ou mensagens recebidas. Estes 
+           evento desencadeiam ações como mudança de cenário, movimentos de atores,
+           exibição ou ocultação de atores, e a apresentação de diálogos informativos.
+           Por exemplo, ao clicar em determinados atores, os usuários podem "receber"
+           uma prova, o que leva a uma mudança de cenário e a exibição de informações
+           relevantes ou a visualização de uma constelação específica.</p>
+        <p>A importancia das ferramentas utilizadas, como os blocos de codigo
+            visual do Scratch, reside na sua acessibilidade e na capacidade de engajar
+            aprendizes de diferentes idades no pensamento computacional e na exploração
+            de conceitos científicos de forma interativa. O uso de cenarios, movimentos e 
+            diálogos dinamicos ajuda acria uma experiencia de aprendizado mais rica e 
+            memorável, encorajando os usuarios a explorar e interagir com o conteúdo de 
+            maneira ativa, em vez de passivamente.</p>
+        <img src="img/projeto-1.png" class="card-img-top" alt="imagem do projeto de biblioteca">
+    </div>
+    <div class="modal-footer">
+        <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
     </div>
     </div>
  </div>
@@ -137,8 +162,8 @@ reflexão ética sobre a tecnologia.</p>
 <footer class="container">
     <h2>Entre em contato.</h2>
     <div>
-        <a href=""http://github.com/femaschetil"">github</a>
-        <p class="my-5 text-center">copyright 2024, produzido por aluna Sabrina Kelly da Cruz Camargo.</p>
+        <a href="https://github.com/Sallyzinha123/Projeto-5--terceiro-trimestre-.git">github</a>
+        <p class="my-5 text-center">copyright 2024, produzido por .</p>
 </footer>
 </body>
-</html>
+    </html>
