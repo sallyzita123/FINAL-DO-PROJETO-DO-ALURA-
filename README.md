@@ -10,8 +10,8 @@
 </head>
 <body>
     <header class="container">
-    <img src="img/avatar-perfil.png" class="rounded-circle" width="150"  alt="avatar de Sthefanny" srcset="">
-<p class="lead">Eu sou Sthefanny Dos Santos Silva</p>
+    <img src="img/avatar-perfil.png" class="rounded-circle" width="150"  alt="avatar de Sabrina" srcset="">
+<p class="lead">Eu sou Sabrina Kelly da Cruz Camargo</p>
     <h1>Eu estou estudando programação básica</h1>
     <p>Sou aluna do ensino médio.
         E eu estou recebendo conhecimento constante 
